@@ -1,0 +1,1 @@
+# WesiaKaliany10-Prova-API-REST-de-Gest-o-de-Academia
