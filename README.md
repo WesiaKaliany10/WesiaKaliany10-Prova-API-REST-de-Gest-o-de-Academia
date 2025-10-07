@@ -1,39 +1,94 @@
 Academia API
+
+
 Descrição:
+
+
 A Academia API é uma aplicação backend desenvolvida em Spring Boot para gerenciamento de academias.
+
+
 A solução permite:
+
+
 -Gerenciar alunos, planos e treinos
+
+
 -Registrar pagamentos e cobranças
+
+
 -Controlar vínculos aluno-treino
+
+
 -Registrar treinos avulsos
+
+
 -Validar CPF e evitar duplicidades
+
+
 -Documentar e testar endpoints via Swagger/OpenAPI
+
+
 A API utiliza o H2 Database para testes locais, permitindo inicialização rápida e fácil reset de dados.
 
 Tecnologias utilizadas:
 
 -Java 21
+
+
 -Spring Boot
+
+
 -Spring Data JPA
+
+
 -H2 Database
+
+
 -Maven
+
+
 -Swagger/OpenAPI 3
+
+
 -JSON para requisições e respostas
 
 ⚙️ Como rodar o projeto
+
+
 -Pré-requisitos
+
+
 -Java JDK 17+
+
+
 -Maven 3.8+
+
+
 -IDE para Java (IntelliJ, Eclipse ou VS Code)
 
 Passos:
+
 Clone o repositório: git clone https://github.com/WesiaKaliany10/WesiaKaliany10-Prova-API-REST-de-Gestao-de-Academia.git
+
+
 Acesse a pasta do projeto:cd WesiaKaliany10-Prova-API-REST-de-Gestao-de-Academia
+
+
 Compile o projeto: mvn clean install
+
+
 Rode a aplicação: mvn spring-boot:run
+
+
 Acesse a API:
+
+
 -Endpoints base: http://localhost:8080/api/v1/
+
+
 -Swagger UI: http://localhost:8080/swagger-ui/index.html
+
+
 <img width="1792" height="496" alt="print2" src="https://github.com/user-attachments/assets/f95f22a6-7789-4fbc-903b-5bb6b5192128" />
 <img width="1807" height="731" alt="print1" src="https://github.com/user-attachments/assets/03ad6d41-1717-479f-802f-f69a62b21355" />
 <img width="1791" height="861" alt="Captura de tela 2025-10-07 001023" src="https://github.com/user-attachments/assets/b56aac4d-4fde-4269-82dd-ccd82747870a" />
